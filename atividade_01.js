@@ -5,4 +5,4 @@ const distanceTraveled = 500;
 
 let finalSpending = (distanceTraveled / kmPerLiter) * fuelPrice;
 
-console.log(finalSpending);
+console.log(finalSpending.toFixed(2));
